@@ -6,11 +6,11 @@ class UserModel extends Model {
 	
 	protected $connection = array(
 		// 'db_host'  => '127.0.0.1',
-		// 'db_name'  => 'kouzhao',
+		// 'db_name'  => 'kouzhao_vip4',
 		// 'db_user'  => 'root',
-		// 'db_pwd'   => 'root',
+		// 'db_pwd'   => 'root@123',
 		'db_host'  => '211.149.141.248',
-		'db_name'  => 'kouzhao',
+		'db_name'  => 'kouzhao_vip4',
 		'db_user'  => 'master',
 		'db_pwd'   => 'master@0013',
 		'db_port'  => '3306',

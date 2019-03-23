@@ -1,14 +1,11 @@
-
 <IfModule mod_rewrite.c>
 RewriteEngine on
 #RewriteLog "rewrite.log"
-#publicÄ¿Â¼,sysÄ¿Â¼...,²»½øĞĞÖØĞ´
+#publicç›®å½•,sysç›®å½•...,ä¸è¿›è¡Œé‡å†™
 RewriteCond %{REQUEST_URI} !^(/public(.*)|/Uploads(.*)|/sys(.*))$
-#ÕâĞ©ºó×ºµÄÎÄ¼ş£¬²»½øĞĞRewriteRule
+#è¿™äº›åç¼€çš„æ–‡ä»¶ï¼Œä¸è¿›è¡ŒRewriteRule
 RewriteCond %{REQUEST_URI} !^.*(\.css|\.js|\.gif|\.png|\.jpg|\.jpeg|\.bmp)$ 
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f 
 RewriteRule ^(.*)$ index.php/$1 [QSA,PT,L]
 </IfModule>
-
-

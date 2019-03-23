@@ -23,37 +23,37 @@ html, body { width:100%; height:100%; font-size:12px; font-family:微软雅黑,A
 .highlight{ border:1px solid #ffbe7a;zoom:1; background: #fffced; padding:8px 10px; line-height:20px; clear:both;margin-top:10px;}
 
 /*logo 样式*/
-#header{ background:url("../../../Images/Admin/main/navbg.gif") repeat-x; height:67px; overflow:hidden; }
+#header{ background:url("../../../images/Admin/main/navbg.gif") repeat-x; height:67px; overflow:hidden; }
 #header .logo{ float:left; width:160px; height:37px; overflow:hidden; }
 #header .logo .logo-img{padding-left:13px; }
-#header .logo .logo-date{background:url("../../../Images/Admin/main/logo_bg.gif") bottom left repeat-x; height:37px; line-height:35px; }
+#header .logo .logo-date{background:url("../../../images/Admin/main/logo_bg.gif") bottom left repeat-x; height:37px; line-height:35px; }
 #header .logo .logo-date span{ color:#f48d49; padding-left:20px; }
 
 /*导航样式*/
 #header .nav{ float:left; }
 #header .nav .nav-top ul li{ float:left; font-weight:600; font-size:14px; line-height:40px; width:80px; text-align:center; }
-#header .nav .nav-top ul li a { display:block; background:url("../../../Images/Admin/main/btn_bg.gif") no-repeat left top; height:35px; background-position: right -115px; overflow:hidden;  }
+#header .nav .nav-top ul li a { display:block; background:url("../../../images/Admin/main/btn_bg.gif") no-repeat left top; height:35px; background-position: right -115px; overflow:hidden;  }
 #header .nav .nav-top ul li a span{ padding:0 10px 0 10px; display:block; }
 #header .nav .nav-top ul li a:hover{ color:#0968f8; }
 
 #header .nav .nav-top ul li a.selected {color:#fff; background-position:left top;}
-#header .nav .nav-top ul li a.selected span{background:url("../../../Images/Admin/main/btn_bg.gif") no-repeat right top; background-position:right -50px; }
+#header .nav .nav-top ul li a.selected span{background:url("../../../images/Admin/main/btn_bg.gif") no-repeat right top; background-position:right -50px; }
 
 #header .nav .nav-bottom { color:#666666; }
 #header .nav .nav-bottom ul li{ float:left; padding-left:10px; line-height:30px; }
 #header .nav .nav-bottom ul li a:hover{color:red; }
 
 /*左边盒子样式*/
-#menu { position:absolute; top:67px; left:0; width:160px; background:url(../../../Images/Admin/main/main-left.gif) right top repeat-y; height:100%; }
+#menu { position:absolute; top:67px; left:0; width:160px; background:url(../../../images/Admin/main/main-left.gif) right top repeat-y; height:100%; }
 #menu .sub-nav { display:none; padding-left:15px; }
 
 #menu h4 { border-bottom:3px solid #91C900; width:80px; color:#376585; line-height:35px; font-size:12px;  }
 #menu ul { padding:10px 0 0 10px; }
 #menu ul li { line-height:25px; display:inline; }
-#menu ul li a {color:#000; display:block; background:url("../../../Images/Admin/main/main-left-a.gif") 0px 10px no-repeat; padding-left:15px; }
-#menu ul li a:hover { background:url("../../../Images/Admin/main/main-left-hover.gif") -12px 2px no-repeat; }
+#menu ul li a {color:#000; display:block; background:url("../../../images/Admin/main/main-left-a.gif") 0px 10px no-repeat; padding-left:15px; }
+#menu ul li a:hover { background:url("../../../images/Admin/main/main-left-hover.gif") -12px 2px no-repeat; }
 #menu ul li a span { display:block; }
-.selected-left{ background:url("../../../Images/Admin/main/main-left-hover.gif") right 2px no-repeat; }
+.selected-left{ background:url("../../../images/Admin/main/main-left-hover.gif") right 2px no-repeat; }
 
 /*右边盒子样式*/
 #master { width:100%; height:100%; position:absolute; left:160px; top:67px; right:0; }
@@ -65,7 +65,7 @@ html, body { width:100%; height:100%; font-size:12px; font-family:微软雅黑,A
 .panel .panel-content { width:99%; }
 .panel .panel-content textarea { border:1px #cccccc solid; }
 .panel .panel-content input[type="text"], .panel .panel-content input[type="password"] { border:1px #cccccc solid; line-height:20px; height:20px; }
-.panel .panel-content input[type="submit"], .panel .panel-content input[type="button"] { background:url(../../../Images/Admin/main/button-bg.jpg) no-repeat; text-align:center; border:0px; font:Arial; font-size:12px; width:70px;height:20px; cursor:pointer; }
+.panel .panel-content input[type="submit"], .panel .panel-content input[type="button"] { background:url(../../../images/Admin/main/button-bg.jpg) no-repeat; text-align:center; border:0px; font:Arial; font-size:12px; width:70px;height:20px; cursor:pointer; }
 .panel .panel-content input[type="submit"]:hover, .panel .panel-content input[type="button"]:hover { color:red; }
 .panel .panel-content .tip { color:#666666; }
 
@@ -75,21 +75,21 @@ table.form-table th { font-weight:normal; text-align:right; padding-left:10px;  
 
 table.list-table { border-collapse:collapse; cellpadding:0; cellspacing:0; width:100%; margin-top:5px; }
 table.list-table td, table.list-table th {text-align:left; line-height:30px; height:30px; font-size:12px; border-bottom:1px solid #cccccc; border-left:1px solid #cccccc; padding-left:10px; border-right:1px solid #cccccc; border-top:1px solid #cccccc; }
-table.list-table th { font-weight:normal; background:url("../../../Images/Admin/main/fhbg.gif") repeat-x; font-size:12px; }
+table.list-table th { font-weight:normal; background:url("../../../images/Admin/main/fhbg.gif") repeat-x; font-size:12px; }
 table.list-table .over { background: #d9ebf5; border-bottom: 1px dotted #a8d8eb; }
 table.list-table .double { background: #f7f7f7; }
 table.list { border-collapse:collapse; cellpadding:0; cellspacing:0; width:100%; }
 table.list td, table.list-table th {text-align:left; line-height:30px; height:30px; font-size:12px; border-bottom:1px solid #cccccc; border-left:1px solid #cccccc; padding-left:10px;}
-table.list th { font-weight:normal; background:url("../../../Images/Admin/main/fhbg.gif") repeat-x; font-size:12px; }
+table.list th { font-weight:normal; background:url("../../../images/Admin/main/fhbg.gif") repeat-x; font-size:12px; }
 table.list .over { background: #d9ebf5; border-bottom: 1px dotted #a8d8eb; }
 table.list .double { background: #f7f7f7; }
 /*************** cmxform Styles ********************/
 form.cmxform { width: 370px; font-size: 1.0em; color: #333; }
 form.cmxform legend { padding-left: 0; }
 form.cmxform legend, form.cmxform label { color: #333; }
-form.cmxform fieldset {border: none;border-top: 1px solid #C9DCA6;background: url(../../../Images/Admin/main/cmxform-fieldset.gif) left bottom repeat-x;background-color: #F8FDEF;}
+form.cmxform fieldset {border: none;border-top: 1px solid #C9DCA6;background: url(../../../images/Admin/main/cmxform-fieldset.gif) left bottom repeat-x;background-color: #F8FDEF;}
 form.cmxform fieldset fieldset {background: none;}
-form.cmxform fieldset p, form.cmxform fieldset fieldset {padding: 5px 10px 7px;background: url(../../../Images/Admin/main/cmxform-divider.gif) left bottom repeat-x;}
+form.cmxform fieldset p, form.cmxform fieldset fieldset {padding: 5px 10px 7px;background: url(../../../images/Admin/main/cmxform-divider.gif) left bottom repeat-x;}
 form.cmxform label.error, label.error {color: red;padding:0 5px;}
 div.error { display: none; }
 input.checkbox { border: none }
@@ -120,12 +120,12 @@ form.cmxform .gray * { color: gray; }
 #pageList .pageCurrent { background:#CCCCCC; border:1px solid #CCCCCC; width:30px; height:30px; line-height:30px; display:inline-block; margin-left:5px; }
 
 /*编辑器添加代码按钮*/
-.btnCode { background:transparent url(../../../Images/Admin/main/code.gif) no-repeat 16px 16px; background-position:2px 2px; } 
+.btnCode { background:transparent url(../../../images/Admin/main/code.gif) no-repeat 16px 16px; background-position:2px 2px; } 
 
 /*初始化修改密码*/
 #updatePassword { margin:10px 0 0 10px; }
-label.error{ color: red; background:url(../../../Images/Admin/main/reg3.gif) no-repeat 0 center; padding-left:25px; font-size:12px; }
-label.success{ background:url(../../../Images/Admin/main/reg4.gif) no-repeat 0 center; padding-left:25px; font-size:12px; color:green; }
+label.error{ color: red; background:url(../../../images/Admin/main/reg3.gif) no-repeat 0 center; padding-left:25px; font-size:12px; }
+label.success{ background:url(../../../images/Admin/main/reg4.gif) no-repeat 0 center; padding-left:25px; font-size:12px; color:green; }
 
 /*表单*/
 .inputStyle { width:150px; height:20px; line-height:20px; padding:4px 7px; border:1px solid #CCCCCC; font-family:微软雅黑; }
@@ -133,7 +133,7 @@ label.success{ background:url(../../../Images/Admin/main/reg4.gif) no-repeat 0 c
 input[name="Submit"] { width:50px; height:30px; cursor:pointer; font-size:12px; line-height:30px; font-family:微软雅黑; }
 
 /*编辑器添加代码按钮*/
-.btnCode { background:transparent url(../../../Images/Admin/main/add.gif) no-repeat 16px 16px; background-position:2px 2px; } 
+.btnCode { background:transparent url(../../../images/Admin/main/add.gif) no-repeat 16px 16px; background-position:2px 2px; } 
 
 /*分页*/
 #pageLists { text-align:center; }

@@ -1,8 +1,4 @@
-<php>
-	session_start(); function set_token() { $_SESSION['token'] = md5(microtime(true));
-	} if(!isset($_SESSION['token']) || $_SESSION['token']=='') { set_token();
-	}
-</php>
+<?php if (!defined('THINK_PATH')) exit(); session_start(); function set_token() { $_SESSION['token'] = md5(microtime(true)); } if(!isset($_SESSION['token']) || $_SESSION['token']=='') { set_token(); } ?>
 <!DOCTYPE html>
 <html lang="zh-CN">
 
@@ -16,16 +12,16 @@
 	</title>
 	<meta name="keywords" content="2019年外发加工在家赚钱五星推荐" />
 	<meta name="description" content="2019年外发加工在家赚钱五星推荐" />
-	<link href="__CSS__/Home/wapask_base.css" type="text/css" rel="stylesheet">
-	<link href="__CSS__/Home/wapask_all.css" type="text/css" rel="stylesheet">
-	<link href="__CSS__/Home/index.css" type="text/css" rel="stylesheet">
-	<link href="__CSS__/Home/liMarquee.css" type="text/css" rel="stylesheet">
-	<link href="__CSS__/Home/2style.css" type="text/css" rel="stylesheet">
-	<script type="text/javascript" src="__JS__/Home/jquery.js">
+	<link href="/Public/css/Home/wapask_base.css" type="text/css" rel="stylesheet">
+	<link href="/Public/css/Home/wapask_all.css" type="text/css" rel="stylesheet">
+	<link href="/Public/css/Home/index.css" type="text/css" rel="stylesheet">
+	<link href="/Public/css/Home/liMarquee.css" type="text/css" rel="stylesheet">
+	<link href="/Public/css/Home/2style.css" type="text/css" rel="stylesheet">
+	<script type="text/javascript" src="/Public/js/Home/jquery.js">
 	</script>
-	<script type="text/javascript" src="__JS__/Home/check.js">
+	<script type="text/javascript" src="/Public/js/Home/check.js">
 	</script>
-	<script type="text/javascript" src="__JS__/Home/jquery.liMarquee.js">
+	<script type="text/javascript" src="/Public/js/Home/jquery.liMarquee.js">
 	</script>
 	<style type="text/css">
 		.wcid {
@@ -178,7 +174,7 @@
 		</h1>
 	</section>
 	<p class="tiezi-ps">
-		<img src="__IMAGE__/Home/aa.jpg" style="width:100%; height:50%;" />
+		<img src="/Public/images/Home/aa.jpg" style="width:100%; height:50%;" />
 	</p>
 	<section class="tiezi-qs" style="margin:0 auto;">
 		<p class="tiezi-ps">
@@ -201,8 +197,8 @@
 			</div>
 		</p>
 		<p class="tiezi-ps">
-			<img src="__IMAGE__/Home/ee.jpg" style="width:100%; height:50%;" />
-			<!-- <img src="__IMAGE__/Home/bb.jpg" style="width:100%; height:50%;" /> -->
+			<img src="/Public/images/Home/ee.jpg" style="width:100%; height:50%;" />
+			<!-- <img src="/Public/images/Home/bb.jpg" style="width:100%; height:50%;" /> -->
 		</p>
 	</section>
 	<!-- <section class="tiezi-qs" style="margin:0 auto;">
@@ -219,7 +215,7 @@
 			</div>
 		</p>
 		<p class="tiezi-ps">
-			<img src="__IMAGE__/Home/3.jpg" style="width:100%; height:190%;" />
+			<img src="/Public/images/Home/3.jpg" style="width:100%; height:190%;" />
 		</p>
 	</section> -->
 	<section class="tiezi-qs" style="margin:0 auto;">
@@ -327,8 +323,8 @@
 	</section>
 	<section class="tiezi-qs" style="margin:0 auto;">
 		<p class="tiezi-ps">
-			<img src="__IMAGE__/Home/cc.jpg" style="width:100%; height:50%;" />
-			<!-- <img src="__IMAGE__/Home/5.jpg" style="width:50%; height:50%;" /> -->
+			<img src="/Public/images/Home/cc.jpg" style="width:100%; height:50%;" />
+			<!-- <img src="/Public/images/Home/5.jpg" style="width:50%; height:50%;" /> -->
 		</p>
 	</section>
 	<section class="tiezi-qs" style="margin:0 auto;">
@@ -370,7 +366,7 @@
 			<div class="content_le_03_doctor_box">
 				<div class="content_le_03_doctor_box">
 					<div class="content_le_03_doctor">
-						<img class="doctor_img" src="__IMAGE__/Home/tx1.jpg">
+						<img class="doctor_img" src="/Public/images/Home/tx1.jpg">
 						<ul>
 							<li>
 								<span style="color:#02879f">
@@ -395,7 +391,7 @@
 							<a href="#">
 							</a>
 							<a class="time">
-								<img src="__IMAGE__/Home/TB2EwkIlVXXXXcvXXXXXXXXXXXX_23033169.png">
+								<img src="/Public/images/Home/TB2EwkIlVXXXXcvXXXXXXXXXXXX_23033169.png">
 								&nbsp;昨天 12:17:23
 							</a>
 							<p>
@@ -407,7 +403,7 @@
 				<div class="content_le_03_doctor_box">
 					<div class="content_le_03_doctor_box">
 						<div class="content_le_03_doctor">
-							<img class="doctor_img" src="__IMAGE__/Home/tx2.jpg">
+							<img class="doctor_img" src="/Public/images/Home/tx2.jpg">
 							<ul>
 								<li>
 									<span style="color:#02879f">
@@ -432,7 +428,7 @@
 								<a href="#">
 								</a>
 								<a class="time">
-									<img src="__IMAGE__/Home/TB2EwkIlVXXXXcvXXXXXXXXXXXX_23033169.png">
+									<img src="/Public/images/Home/TB2EwkIlVXXXXcvXXXXXXXXXXXX_23033169.png">
 									&nbsp;昨天 12:17:23
 								</a>
 								<p>
@@ -442,7 +438,7 @@
 					<div class="content_le_03_doctor_line">
 					</div>
 					<div class="content_le_03_doctor">
-						<img class="doctor_img" src="__IMAGE__/Home/tx3.jpg" height="65" width="65">
+						<img class="doctor_img" src="/Public/images/Home/tx3.jpg" height="65" width="65">
 						<ul>
 							<li>
 								<span style="color:#02879f">
@@ -489,7 +485,7 @@
 						<a href="#">
 						</a>
 						<a class="time">
-							<img src="__IMAGE__/Home/TB2EwkIlVXXXXcvXXXXXXXXXXXX_23033169.png">
+							<img src="/Public/images/Home/TB2EwkIlVXXXXcvXXXXXXXXXXXX_23033169.png">
 							&nbsp;昨天 09:49:01
 						</a>
 						<p>
@@ -500,7 +496,7 @@
 				</div>
 				<div class="content_le_03_doctor_box">
 					<div class="content_le_03_doctor">
-						<img class="doctor_img" src="__IMAGE__/Home/tx4.jpg">
+						<img class="doctor_img" src="/Public/images/Home/tx4.jpg">
 						<ul>
 							<li>
 								<span style="color:#02879f">
@@ -524,7 +520,7 @@
 						<a href="#">
 						</a>
 						<a class="time">
-							<img src="__IMAGE__/Home/TB2EwkIlVXXXXcvXXXXXXXXXXXX_23033169.png">
+							<img src="/Public/images/Home/TB2EwkIlVXXXXcvXXXXXXXXXXXX_23033169.png">
 							&nbsp;昨天 20:57:25
 						</a>
 						<p>
@@ -535,7 +531,7 @@
 				</div>
 				<div class="content_le_03_doctor_box">
 					<div class="content_le_03_doctor">
-						<img class="doctor_img" src="__IMAGE__/Home/tx5.jpg">
+						<img class="doctor_img" src="/Public/images/Home/tx5.jpg">
 						<ul>
 							<li>
 								<span style="color:#02879f">
@@ -556,7 +552,7 @@
 						<a href="#">
 						</a>
 						<a class="time">
-							<img src="__IMAGE__/Home/TB2EwkIlVXXXXcvXXXXXXXXXXXX_23033169.png">
+							<img src="/Public/images/Home/TB2EwkIlVXXXXcvXXXXXXXXXXXX_23033169.png">
 							&nbsp;昨天21:31:43
 						</a>
 						<p>
@@ -626,10 +622,10 @@
 						}
 					</script>
 					<input name="bdsubmit" type="submit" value="点击提交留言" class="btn_tj" />
-					<input type="hidden" name="token" value="<php> echo $_SESSION['token']; </php>" />
-					<input type="hidden" name="keyword" value="<php> echo $_COOKIE['keyword']; </php>" />
-					<input type="hidden" name="plan" value="<php> echo $_COOKIE['plan']; </php>" />
-					<input type="hidden" name="unit" value="<php> echo $_COOKIE['unit']; </php>" />
+					<input type="hidden" name="token" value="<?php echo $_SESSION['token']; ?>" />
+					<input type="hidden" name="keyword" value="<?php echo $_COOKIE['keyword']; ?>" />
+					<input type="hidden" name="plan" value="<?php echo $_COOKIE['plan']; ?>" />
+					<input type="hidden" name="unit" value="<?php echo $_COOKIE['unit']; ?>" />
 			</div>
 		</section>
 		<!--03-->
@@ -845,12 +841,12 @@
 			<a class="last_btn01" href="#box">
 				留言咨询
 			</a>
-			<a style="color:#FFFFFF;" href="tel:{$phone}" class="last_btn02">
+			<a style="color:#FFFFFF;" href="tel:<?php echo ($phone); ?>" class="last_btn02">
 				电话咨询
 			</a>
 		</div>
 	</hgroup>
-	{$code}
+	<?php echo ($code); ?>
 	<script>
 		var _hmt = _hmt || [];
 		(function () {
